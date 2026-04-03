@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "maps": {
+    "Scar":       { "phases": 5, "modes": ["hardpoint", "search_and_destroy", "overload"] },
+    "Blackheart": { "phases": 5, "modes": ["hardpoint"] },
+    "Den":        { "phases": 4, "modes": ["hardpoint", "search_and_destroy", "overload"] },
+    "Colossus":   { "phases": 4, "modes": ["hardpoint", "search_and_destroy"] },
+    "Exposure":   { "phases": 5, "modes": ["hardpoint", "search_and_destroy", "overload"] },
+    "Raid":       { "phases": null, "modes": ["search_and_destroy"] }
+  },
+  "teams": [
+    "MIA", "CAR", "TX", "LAT", "OMiT", "MIN", "TOR", "NY", "BOS", "RUH", "LV", "PAR", "VAN"
+  ],
+  "game_modes": {
+    "CDL HARDPOINT":          "hardpoint",
+    "HARDPOINT":              "hardpoint",
+    "CDL SEARCH AND DESTROY": "search_and_destroy",
+    "CDL SEARCH & DESTROY":   "search_and_destroy",
+    "SEARCH AND DESTROY":     "search_and_destroy",
+    "SEARCH & DESTROY":       "search_and_destroy",
+    "CDL OVERLOAD":           "overload",
+    "OVERLOAD":               "overload"
+  }
+}
