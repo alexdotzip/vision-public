@@ -1,24 +1,308 @@
 {
   "version": "1.0",
   "maps": {
-    "Scar":       { "phases": 5, "modes": ["hardpoint", "search_and_destroy", "overload"] },
-    "Blackheart": { "phases": 5, "modes": ["hardpoint"] },
-    "Den":        { "phases": 4, "modes": ["hardpoint", "search_and_destroy", "overload"] },
-    "Colossus":   { "phases": 4, "modes": ["hardpoint", "search_and_destroy"] },
-    "Exposure":   { "phases": 5, "modes": ["hardpoint", "search_and_destroy", "overload"] },
-    "Raid":       { "phases": null, "modes": ["search_and_destroy"] }
+    "Scar": {
+      "phases": 5,
+      "modes": [
+        "hardpoint",
+        "search_and_destroy",
+        "overload"
+      ]
+    },
+    "Blackheart": {
+      "phases": 5,
+      "modes": [
+        "hardpoint"
+      ]
+    },
+    "Den": {
+      "phases": 4,
+      "modes": [
+        "hardpoint",
+        "search_and_destroy",
+        "overload"
+      ]
+    },
+    "Colossus": {
+      "phases": 4,
+      "modes": [
+        "hardpoint",
+        "search_and_destroy"
+      ]
+    },
+    "Exposure": {
+      "phases": 5,
+      "modes": [
+        "hardpoint",
+        "search_and_destroy",
+        "overload"
+      ]
+    },
+    "Raid": {
+      "phases": null,
+      "modes": [
+        "search_and_destroy"
+      ]
+    },
+    "Sake": {
+      "phases": 5,
+      "modes": [
+        "hardpoint",
+        "search_and_destroy",
+        "overload"
+      ]
+    },
+    "Gridlock": {
+      "phases": 4,
+      "modes": [
+        "hardpoint",
+        "search_and_destroy",
+        "overload"
+      ]
+    },
+    "Hacienda": {
+      "phases": 4,
+      "modes": [
+        "hardpoint",
+        "search_and_destroy",
+        "overload"
+      ]
+    },
+    "Utopia": {
+      "phases": null,
+      "modes": [
+        "overload"
+      ]
+    },
+    "Fringe": {
+      "phases": null,
+      "modes": [
+        "search_and_destroy"
+      ]
+    },
+    "Plaza": {
+      "phases": null,
+      "modes": [
+        "search_and_destroy"
+      ]
+    }
   },
   "teams": [
-    "MIA", "CAR", "TX", "LAT", "OMiT", "MIN", "TOR", "NY", "BOS", "RUH", "LV", "PAR", "VAN"
+    "BOS",
+    "CAR",
+    "LAT",
+    "LV",
+    "MIA",
+    "MIN",
+    "NY",
+    "PAR",
+    "RUH",
+    "TOR",
+    "TX",
+    "VAN"
   ],
+  "players": {
+    "04": {
+      "team": "LV"
+    },
+    "Abe": {
+      "team": "TOR"
+    },
+    "Abezy": {
+      "team": "LAT"
+    },
+    "Abuzah": {
+      "team": "LV"
+    },
+    "Afro": {
+      "team": "BOS"
+    },
+    "Assault": {
+      "team": null
+    },
+    "Beans": {
+      "team": "NY"
+    },
+    "Cammy": {
+      "team": "BOS"
+    },
+    "Capsidal": {
+      "team": "VAN"
+    },
+    "Cellium": {
+      "team": "RUH"
+    },
+    "CleanX": {
+      "team": "TOR"
+    },
+    "Craze": {
+      "team": "CAR"
+    },
+    "Dashy": {
+      "team": "TX"
+    },
+    "Drazah": {
+      "team": "LV"
+    },
+    "Encourage": {
+      "team": "NY"
+    },
+    "Envoy": {
+      "team": "MIN"
+    },
+    "Estreal": {
+      "team": "PAR"
+    },
+    "Exceed": {
+      "team": "CAR"
+    },
+    "Exnid": {
+      "team": "RUH"
+    },
+    "Fame": {
+      "team": null
+    },
+    "Fire": {
+      "team": "CAR"
+    },
+    "Flames": {
+      "team": null
+    },
+    "Ghosty": {
+      "team": "PAR"
+    },
+    "Gwinn": {
+      "team": "VAN"
+    },
+    "Hide": {
+      "team": "NY"
+    },
+    "Huke": {
+      "team": "TX"
+    },
+    "Hydra": {
+      "team": "LAT"
+    },
+    "Insight": {
+      "team": "TOR"
+    },
+    "JoeDeceives": {
+      "team": "PAR"
+    },
+    "Kenny": {
+      "team": "LAT"
+    },
+    "Kips": {
+      "team": "TOR"
+    },
+    "Kremp": {
+      "team": "MIN"
+    },
+    "Lqgend": {
+      "team": "VAN"
+    },
+    "Lunarz": {
+      "team": "VAN"
+    },
+    "Lurqxx": {
+      "team": "CAR"
+    },
+    "Mack": {
+      "team": "NY"
+    },
+    "Mamba": {
+      "team": "VAN"
+    },
+    "Mercules": {
+      "team": "TX"
+    },
+    "MettalZ": {
+      "team": "MIA"
+    },
+    "Nastie": {
+      "team": "MIN"
+    },
+    "Nejra": {
+      "team": "NY"
+    },
+    "Neptune": {
+      "team": "PAR"
+    },
+    "Nero": {
+      "team": "VAN"
+    },
+    "Nium": {
+      "team": "LAT"
+    },
+    "Okis": {
+      "team": "NY"
+    },
+    "Pred": {
+      "team": "RUH"
+    },
+    "Purj": {
+      "team": "BOS"
+    },
+    "ReeaL": {
+      "team": "MIA"
+    },
+    "RenKoR": {
+      "team": "MIA"
+    },
+    "Saint": {
+      "team": "CAR"
+    },
+    "Scrap": {
+      "team": "LAT"
+    },
+    "Sib": {
+      "team": "PAR"
+    },
+    "Simp": {
+      "team": "LV"
+    },
+    "Skyz": {
+      "team": "MIN"
+    },
+    "Slasher": {
+      "team": "CAR"
+    },
+    "Snoopy": {
+      "team": "BOS"
+    },
+    "Shotzzy": {
+      "team": "TX"
+    },
+    "Spart": {
+      "team": "BOS"
+    },
+    "SupeR": {
+      "team": "MIA"
+    },
+    "TJHaly": {
+      "team": "BOS"
+    },
+    "Traix": {
+      "team": "MIA"
+    },
+    "Vivid": {
+      "team": "NY"
+    },
+    "Standy": {
+      "team": "CAR"
+    },
+    "k1smet": {
+      "team": "RUH"
+    }
+  },
   "game_modes": {
-    "CDL HARDPOINT":          "hardpoint",
-    "HARDPOINT":              "hardpoint",
+    "CDL HARDPOINT": "hardpoint",
+    "HARDPOINT": "hardpoint",
     "CDL SEARCH AND DESTROY": "search_and_destroy",
-    "CDL SEARCH & DESTROY":   "search_and_destroy",
-    "SEARCH AND DESTROY":     "search_and_destroy",
-    "SEARCH & DESTROY":       "search_and_destroy",
-    "CDL OVERLOAD":           "overload",
-    "OVERLOAD":               "overload"
+    "CDL SEARCH & DESTROY": "search_and_destroy",
+    "SEARCH AND DESTROY": "search_and_destroy",
+    "SEARCH & DESTROY": "search_and_destroy",
+    "CDL OVERLOAD": "overload",
+    "OVERLOAD": "overload"
   }
 }
