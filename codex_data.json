@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "2.0",
   "maps": {
     "Scar": {
       "phases": 5,
@@ -85,6 +85,42 @@
       "modes": [
         "search_and_destroy"
       ]
+    },
+    "Lithium": {
+      "phases": 6,
+      "modes": [
+        "hardpoint"
+      ]
+    },
+    "Lotus": {
+      "phases": 6,
+      "modes": [
+        "hardpoint"
+      ]
+    },
+    "Munition": {
+      "phases": 6,
+      "modes": [
+        "hardpoint"
+      ]
+    },
+    "Reactor U92": {
+      "phases": 5,
+      "modes": [
+        "hardpoint"
+      ]
+    },
+    "Rooftops": {
+      "phases": 6,
+      "modes": [
+        "hardpoint"
+      ]
+    },
+    "Sentry": {
+      "phases": 5,
+      "modes": [
+        "hardpoint"
+      ]
     }
   },
   "teams": [
@@ -103,31 +139,34 @@
   ],
   "players": {
     "04": {
-      "team": "LV"
+      "team": "PAR"
     },
     "Abe": {
-      "team": "TOR"
+      "team": "MIN"
     },
-    "Abezy": {
+    "aBeZy": {
       "team": "LAT"
     },
     "Abuzah": {
-      "team": "LV"
+      "team": "PAR"
     },
     "Afro": {
-      "team": "BOS"
+      "team": null
+    },
+    "Alluka": {
+      "team": "LV"
     },
     "Assault": {
       "team": null
     },
     "Beans": {
-      "team": "NY"
+      "team": null
     },
     "Cammy": {
-      "team": "BOS"
+      "team": "NY"
     },
     "Capsidal": {
-      "team": "VAN"
+      "team": null
     },
     "Cellium": {
       "team": "RUH"
@@ -136,79 +175,96 @@
       "team": "TOR"
     },
     "Craze": {
-      "team": "CAR"
+      "team": null
     },
     "Dashy": {
       "team": "TX"
     },
+    "DK": {
+      "team": "LAT"
+    },
     "Drazah": {
-      "team": "LV"
-    },
-    "Encourage": {
-      "team": "NY"
-    },
-    "Envoy": {
-      "team": "MIN"
-    },
-    "Estreal": {
       "team": "PAR"
     },
+    "Encourage": {
+      "team": null
+    },
+    "Envoy": {
+      "team": "LAT"
+    },
+    "Estreal": {
+      "team": "BOS"
+    },
+    "Ethan": {
+      "team": "TOR"
+    },
     "Exceed": {
-      "team": "CAR"
+      "team": null
     },
     "Exnid": {
-      "team": "RUH"
+      "team": null
     },
     "Fame": {
       "team": null
     },
     "Fire": {
-      "team": "CAR"
+      "team": null
     },
     "Flames": {
       "team": null
     },
     "Ghosty": {
-      "team": "PAR"
+      "team": "LAT"
     },
     "Gwinn": {
-      "team": "VAN"
+      "team": null
     },
     "Hide": {
-      "team": "NY"
+      "team": null
     },
     "Huke": {
       "team": "TX"
     },
-    "Hydra": {
-      "team": "LAT"
+    "HyDra": {
+      "team": "LV"
     },
     "Insight": {
-      "team": "TOR"
+      "team": "NY"
     },
     "JoeDeceives": {
       "team": "PAR"
     },
+    "k1smet": {
+      "team": "RUH",
+      "aliases": [
+        "Kismet",
+        "KiSMET",
+        "K1sMeT"
+      ]
+    },
     "Kenny": {
-      "team": "LAT"
+      "team": null
     },
     "Kips": {
       "team": "TOR"
     },
     "Kremp": {
-      "team": "MIN"
+      "team": "RUH"
     },
     "Lqgend": {
-      "team": "VAN"
+      "team": null
     },
     "Lunarz": {
-      "team": "VAN"
+      "team": null
     },
     "Lurqxx": {
-      "team": "CAR"
+      "team": "NY",
+      "aliases": [
+        "Lurqx"
+      ]
     },
     "Mack": {
-      "team": "NY"
+      "team": null
     },
     "Mamba": {
       "team": "VAN"
@@ -220,79 +276,103 @@
       "team": "MIA"
     },
     "Nastie": {
-      "team": "MIN"
+      "team": "BOS"
     },
     "Nejra": {
-      "team": "NY"
+      "team": "CAR"
+    },
+    "Nemensions": {
+      "team": "VAN",
+      "aliases": [
+        "Nemi"
+      ]
     },
     "Neptune": {
-      "team": "PAR"
+      "team": "BOS"
     },
     "Nero": {
-      "team": "VAN"
+      "team": null
     },
     "Nium": {
-      "team": "LAT"
+      "team": "BOS"
     },
     "Okis": {
-      "team": "NY"
+      "team": null
+    },
+    "Owakening": {
+      "team": "CAR"
     },
     "Pred": {
-      "team": "RUH"
+      "team": "NY"
+    },
+    "Prolute": {
+      "team": "MIN"
     },
     "Purj": {
-      "team": "BOS"
+      "team": null
     },
     "ReeaL": {
       "team": "MIA"
     },
-    "RenKoR": {
-      "team": "MIA"
-    },
-    "Saint": {
+    "Renegade": {
       "team": "CAR"
     },
+    "RenKoR": {
+      "team": "TOR"
+    },
+    "Saint": {
+      "team": null
+    },
     "Scrap": {
-      "team": "LAT"
+      "team": "LV"
+    },
+    "Shotzzy": {
+      "team": "TX"
     },
     "Sib": {
-      "team": "PAR"
+      "team": "RUH",
+      "aliases": [
+        "Sibilants"
+      ]
     },
     "Simp": {
       "team": "LV"
     },
     "Skyz": {
-      "team": "MIN"
-    },
-    "Slasher": {
       "team": "CAR"
     },
-    "Snoopy": {
-      "team": "BOS"
+    "Slasher": {
+      "team": null
     },
-    "Shotzzy": {
-      "team": "TX"
+    "Snoopy": {
+      "team": "MIA"
     },
     "Spart": {
-      "team": "BOS"
+      "team": "MIN"
+    },
+    "Standy": {
+      "team": null
     },
     "SupeR": {
       "team": "MIA"
     },
-    "TJHaly": {
-      "team": "BOS"
+    "TJHaLy": {
+      "team": "MIN"
     },
     "Traix": {
-      "team": "MIA"
+      "team": null
     },
     "Vivid": {
-      "team": "NY"
+      "team": null
     },
-    "Standy": {
-      "team": "CAR"
+    "Wevy": {
+      "team": "VAN"
     },
-    "k1smet": {
-      "team": "RUH"
+    "zvik": {
+      "team": "VAN",
+      "aliases": [
+        "Vik"
+      ]
     }
   },
   "game_modes": {
