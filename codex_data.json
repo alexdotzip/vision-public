@@ -1,95 +1,11 @@
 {
   "version": "2.0",
   "maps": {
-    "Scar": {
-      "phases": 5,
-      "modes": [
-        "hardpoint",
-        "search_and_destroy",
-        "overload"
-      ]
-    },
-    "Blackheart": {
-      "phases": 5,
-      "modes": [
-        "hardpoint"
-      ]
-    },
-    "Den": {
-      "phases": 4,
-      "modes": [
-        "hardpoint",
-        "search_and_destroy",
-        "overload"
-      ]
-    },
-    "Colossus": {
-      "phases": 4,
-      "modes": [
-        "hardpoint",
-        "search_and_destroy"
-      ]
-    },
-    "Exposure": {
-      "phases": 5,
-      "modes": [
-        "hardpoint",
-        "search_and_destroy",
-        "overload"
-      ]
-    },
-    "Raid": {
-      "phases": null,
-      "modes": [
-        "search_and_destroy"
-      ]
-    },
-    "Sake": {
-      "phases": 5,
-      "modes": [
-        "hardpoint",
-        "search_and_destroy",
-        "overload"
-      ]
-    },
-    "Gridlock": {
-      "phases": 4,
-      "modes": [
-        "hardpoint",
-        "search_and_destroy",
-        "overload"
-      ]
-    },
-    "Hacienda": {
-      "phases": 4,
-      "modes": [
-        "hardpoint",
-        "search_and_destroy",
-        "overload"
-      ]
-    },
-    "Utopia": {
-      "phases": null,
-      "modes": [
-        "overload"
-      ]
-    },
-    "Fringe": {
-      "phases": null,
-      "modes": [
-        "search_and_destroy"
-      ]
-    },
-    "Plaza": {
-      "phases": null,
-      "modes": [
-        "search_and_destroy"
-      ]
-    },
     "Lithium": {
       "phases": 6,
       "modes": [
-        "hardpoint"
+        "hardpoint",
+        "hijack"
       ]
     },
     "Lotus": {
@@ -101,19 +17,22 @@
     "Munition": {
       "phases": 6,
       "modes": [
-        "hardpoint"
+        "hardpoint",
+        "hijack"
       ]
     },
     "Reactor U92": {
       "phases": 5,
       "modes": [
-        "hardpoint"
+        "hardpoint",
+        "search_and_destroy"
       ]
     },
     "Rooftops": {
       "phases": 6,
       "modes": [
-        "hardpoint"
+        "hardpoint",
+        "search_and_destroy"
       ]
     },
     "Sentry": {
